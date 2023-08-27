@@ -1,0 +1,226 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="Integrador_Yooyo.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+            $('.overlaydark').hide();
+            $('.dropdown-menu .dropdown-item').click(function (e) {
+                e.stopPropagation();
+            });
+        };
+        function listAmigos() {
+
+
+            if ($('#listAmigos').is(":animated")) {
+                return;//reject (no action)
+            }
+            console.log('entrou');
+            if ($('#listAmigos').css('right') < "0") {
+                $('.overlaydark').show();
+                $('#listAmigos').animate({
+                    right: '+=600px'
+
+                });
+            }
+            else {
+                $('.overlaydark').hide();
+                $('#listAmigos').animate({
+                    right: '-=600px'
+                });
+            }
+
+        }
+    </script>
+    <style>
+        #listAmigos {
+            animation-duration: 10s;
+        }
+
+        #tabelaNotificacoes td {
+            width: 100px;
+        }
+
+        #panel2 {
+            width: 300px;
+        }
+
+        #mySidenav {
+            top: 50px;
+            border: 1px solid #333;
+            box-shadow: 10px 0 5px -2px #888;
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #4A77FF;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: white;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        .overlay {
+            z-index: 10;
+        }
+
+        #amigos_div {
+            background-color: white;
+            background-size: 600px 600px;
+        }
+
+        .overlaydark {
+            background-color: rgba(0,0,0,.3);
+            z-index: 5;
+            top: -1px;
+            position: absolute;
+            width: 100vw;
+            height: 100vw;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }
+        .navbar{
+            border: none !important;
+  border-radius: 0 !important;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="overflow-x: hidden;">
+    <form id="form1" runat="server">
+        <div>
+            <nav style="background-color: #4A77FF; height: 60px;" class="navbar navbar-expand-sm navbar-dark sticky-top">
+                <a class="navbar-brand" href="PaginaInicialPostagem.aspx">
+                    <img style="height: 30px;" src="Imagem/Yoyoo W.png" /></a>
+                <%-- Barra de Pesquisa --%>
+                <div style="margin-left:37%;"></div>
+                <h4 class="ml-lg-5" style="color:white;">Administrador</h4>
+                <div style="margin-left:37%;"></div>
+             
+               
+
+                <div style="margin-left:10px;"></div>
+                <!-- BOTÃO MEIO INICIAL -->
+
+
+                <a class="nav-link" href="PaginaAdminNew.aspx">
+                    <asp:Image ID="Image4" Width="20px" Height="20px" runat="server" ImageUrl="~/Imagem/homeWhite.png" />
+                    <asp:Button style="background-color: #4A77FF; padding: 0px; color: white;" id="btninicio" class="btn btn-black" Text="Inicio" runat="server" PostBackUrl="~/PaginaAdminNew.aspx" />
+                     
+                </a>
+              
+                <!-- BOTÃO AMIGOS -->
+              
+             
+         
+                <!-- BOTÃO SAIR-->
+
+                <a class="nav-link" href="PaginaInicial.aspx">
+                    <asp:ImageButton ID="Image1" runat="server" ImageUrl="~/Imagem/portabranca.png" Width="25px" Height="27px" PostBackUrl="~/PaginaInicial.aspx" />
+
+                </a>
+             
+               
+
+            </nav>
+            <!-- SQL DATA SOURCE NOTIFICAÇÕES -->
+            <!-- ____________________________________ -->
+         
+
+        </div>
+        <!-- NAV LATERAL -->
+        
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div visible="false" id="divAmigos" runat="server" class="d-flex flex-column-reverse  bd-highlight justify-content-end float-right">
+            <%--            <asp:Panel ID="Panel1" Height="850px" runat="server" ScrollBars="Vertical">
+  <asp:Repeater  ID="Repeater2" runat="server"  EnableViewState="False">
+                                        <ItemTemplate>
+                                            <table id="tabelaAmigos" style="border: 1px solid #4A77FF;width:200px; background-color: white;">
+                                                <tr>
+                                                    <td style="width: 200px">
+                                                        <table style="width: 200px;">
+                                                            <tr>
+
+                                                                <td>
+                                                                    <asp:Label ID="Label1"
+                                                                        runat="server"
+                                                                        Text='<%#Eval("seguido") %>'>
+                                                                    </asp:Label>
+                                                                </td>
+                                                            </tr>
+                                                           
+                                                           
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                </asp:Panel>--%>
+        </div>
+
+        <asp:ContentPlaceHolder ID="body" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

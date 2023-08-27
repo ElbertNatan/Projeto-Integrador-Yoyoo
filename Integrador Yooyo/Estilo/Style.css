@@ -1,0 +1,1386 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+}
+
+.kk {
+    padding-top: 10%;
+}
+
+h1 {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF
+}
+
+
+h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF
+}
+
+#Label1 {
+    margin-left: 10%;
+    font-size: 11.5px;
+    width: 70%;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: red;
+}
+
+#Hl {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: white;
+}
+
+#txtlabel {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: white;
+    vertical-align: top;
+    margin-top: 10px
+}
+
+
+/*Header login*/
+
+#cab {
+    background-color: #4A77FF;
+    width: 100%;
+    position: relative;
+    font: 12px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    #cab ul {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        list-style: none;
+    }
+
+        #cab ul li {
+            text-align: center;
+            display: inline;
+        }
+
+        #cab ul li {
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            float: left;
+            color: black;
+        }
+
+            #cab ul li img {
+                height: 50px;
+                width: 70px;
+            }
+
+
+/*PG-inicial*/
+
+#comandos {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    top: 50%;
+    margin-top: -200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+}
+
+#iyo {
+    height: 50px;
+    width: 70px;
+    margin-left: 145px;
+    margin-top: 10%;
+}
+
+#txtLogin {
+    width: 65%;
+    height: 8px;
+    margin-left: 10%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252, 252, 252, 1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#txtSenha {
+    width: 65%;
+    height: 8px;
+    margin-left: 10%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252, 252, 252, 1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#txtConf {
+    width: 65%;
+    height: 8px;
+    margin-left: 10%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252, 252, 252, 1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#Logar {
+    margin-top: 2%;
+    cursor: pointer;
+    width: 77.5%;
+    margin-left: 10%;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #4A77FF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+    #Logar:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Registrar {
+    border: none;
+    cursor: pointer;
+    width: 79%;
+    margin-left: 10%;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    font-size: 12px;
+    background: none;
+    text-decoration: none;
+}
+
+
+/*GridView*/
+
+.gridview1 {
+    top: 20%;
+}
+
+    .gridview1 th {
+        font: 12px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+        background-color: #4A77FF;
+    }
+
+    .gridview1 td {
+        font: 12px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+    }
+
+.gridview2 {
+    width: 100%;
+    top: 20%;
+}
+
+    .gridview2 th {
+        font: 120% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+        background-color: #4A77FF;
+    }
+
+    .gridview2 td {
+        font: 15px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+    }
+
+.gridview50 {
+    width: 140%;
+    top: 20%;
+}
+
+    .gridview50 th {
+        font: 120% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+        background-color: #4A77FF;
+    }
+
+    .gridview50 td {
+        font: 15px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+    }
+
+.gridview51 {
+    width: 100%;
+    top: 20%;
+}
+
+    .gridview51 th {
+        font: 120% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+        background-color: #4A77FF;
+    }
+
+    .gridview51 td {
+        font: 15px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #F2EDEF;
+    }
+
+
+.delborder {
+    border: none !important;
+}
+
+
+/*categoria*/
+
+#cat {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    #cat ul {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        list-style: none;
+        font: 100% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+        #cat ul li {
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: center;
+            display: inline;
+        }
+
+            #cat ul li a {
+                text-decoration: none;
+                padding-left: 3%;
+                padding-right: 3%;
+                float: left;
+                color: white;
+            }
+
+                #cat ul li a:hover {
+                    color: white;
+                    background-color: #3F0259;
+                }
+
+.com {
+    width: 13%;
+    position: fixed;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+#Button1 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button1:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button2 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button2:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button3 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button3:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button4 {
+    width: 40%;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button4:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+
+#Button5 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button5:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button6 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button6:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button7 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button7:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button8 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button8:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#Button9 {
+    float: right;
+    width: 30%;
+    height: 30px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Button9:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#JustTXT {
+    width: 90%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#NomeCatTXT {
+    width: 90%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#descricaoTXT {
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252, 252, 252, 1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+/*editar*/
+
+#edit {
+    width: 30%;
+    height: 10%;
+}
+
+#mm {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    font: 150% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: none;
+}
+
+    #mm ul {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        list-style: none;
+    }
+
+    #mm li {
+        text-align: center;
+        display: inline;
+    }
+
+    #mm ul li {
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        text-align: justify;
+        float: left;
+        color: black;
+    }
+
+
+/*Post*/
+
+#post1 {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    margin-top: 2%;
+}
+
+#tituloTXT {
+    width: 92%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#vantagemTXT {
+    width: 38%;
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#ListBox1 {
+    width: 90%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#ListBox2 {
+    width: 90%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#desvantagemTXT {
+    float: right;
+    width: 38%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+
+#Postar {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Postar:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+
+/*CC*/
+
+#cabb {
+    background-color: #4A77FF;
+    width: 100%;
+    height: 40px;
+    float: left;
+    position: fixed
+}
+
+#cabb2 {
+    background-color: #4A77FF;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    float: left;
+}
+
+#cabCC {
+    position: relative;
+    font: 12px Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+}
+
+#cabi img {
+    height: 30px;
+    margin-top: 12px;
+}
+
+#cabi {
+    margin-left: 10px;
+    width: 65%;
+}
+
+#cabE {
+    align-items: center;
+    width: 165px;
+    height: 30px;
+    float: right;
+    top: 50%;
+    margin-top: -30px;
+}
+
+    #cabE div {
+        float: right;
+        width: 115px;
+        vertical-align: middle;
+    }
+
+#cabE1 {
+    align-items: center;
+    width: 135px;
+    height: 25px;
+    float: right;
+    top: 50%;
+    margin-top: -30px;
+    margin-right: 5px;
+}
+
+    #cabE1 div {
+        float: right;
+        width: 75px;
+        vertical-align: middle;
+    }
+
+#cablabel {
+    width: 50px;
+}
+
+#Hl {
+    float: right;
+}
+
+#terra {
+    width: 26px;
+    float: left;
+}
+
+#user {
+    width: 30px;
+}
+
+.notif {
+    float: right;
+    margin-left: 49%;
+    margin-top: 50px;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+}
+
+#posti {
+    position: fixed;
+    float: right;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#perf {
+    width: 60%;
+    position: fixed;
+    float: right;
+    z-index: -1;
+}
+
+#pr1 {
+    width: 58%;
+    
+    position: fixed;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+    #pr1 ul {
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+    }
+
+        #pr1 ul li {
+            float: left;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+        }
+
+#userpost {
+    z-index: 10;
+    width: 95%;
+    margin-top: 30%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+
+.gridview1 {
+    width: 100%;
+}
+
+    .gridview1 th {
+        font: 120% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #3F0259;
+        background-color: #4A77FF;
+    }
+
+    .gridview1 td {
+        font: 100% Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+        border: 2px solid #3F0259;
+    }
+
+
+.delborder {
+    border: none !important;
+}
+
+#Div1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+#Users {
+    transform: rotate(90deg);
+    margin-top: 50px;
+    float: right;
+}
+
+    #Users ul {
+        padding: 0px;
+        margin: 0%;
+        float: left;
+        list-style: none;
+    }
+
+        #Users ul li {
+            text-align: center;
+            display: inline;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            float: left;
+        }
+
+#Voltass {
+    border: none;
+    background-color: black;
+}
+
+#ramigos {
+    margin-top: 50px;
+    width: 15%;
+    height: 100%;
+    float: right;
+    background-color: white;
+    padding: 0px 20px 20px 0px;
+}
+
+#amigos {
+    float: right;
+    position: absolute;
+}
+
+#jamigos {
+    position: absolute;
+    top: 99px;
+    left: 1242px;
+    height: 335px;
+}
+
+#seguindo {
+    position: fixed;
+    margin-top: 50px;
+    transform: rotate(90deg);
+}
+
+#Addamigos {
+    float: right
+}
+
+#FileUpload {
+    width: 100%;
+    height: 23px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #FileUpload:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#AlterarImagemPerfil {
+    float: left;
+    margin-top: 4%;
+    width: 100%;
+    padding: 4px 4px 4px 4px;
+}
+
+    #AlterarImagemPerfil button {
+        margin-left: 20%;
+        float: right;
+    }
+
+    #AlterarImagemPerfil div {
+        float: left;
+    }
+
+#ButtonCan {
+    float: right;
+    width: 30%;
+    height: 30px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #ButtonCan:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#ButtonCon {
+    float: right;
+    width: 30%;
+    height: 30px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #ButtonCon:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#edicaoPerfil {
+    margin-top: 10%;
+}
+
+#nomeED {
+    width: 92%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#emailED {
+    width: 92%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#recadoED {
+    width: 92%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#nomeINTR {
+    text-align: center;
+    margin-top: -5%;
+}
+
+#detalhesPF {
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+#txt2 {
+    margin-left: 4%;
+}
+
+#txt1,
+#txt2,
+#txt3 {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+}
+
+#nomeTXT,
+#EmailTXT,
+#RecadoTXT {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: black;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.66);
+    z-index: -1;
+}
+
+#ADMcon {
+    float: left;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    position: relative;
+}
+
+#conM {
+    float: right;
+    width: 20%;
+}
+
+#conPo ul {
+    width: 100%;
+    list-style: none;
+    margin-left: -12%;
+}
+
+    #conPo ul li {
+        float: left;
+        list-style: none;
+    }
+
+#conii {
+
+    float: right;
+    list-style: none;
+}
+
+#amigus {
+    width: 150px;
+    margin-top: 120px;
+    margin-right: -100%;
+    float: right;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+    #amigus ul {
+        list-style: none;
+    }
+
+#BTNamigus {
+    width: 250px;
+    float: right;
+    margin-top: 50px;
+    background-color: #4A77FF;
+}
+
+    #BTNamigus ul {
+        list-style: none;
+        float: right;
+    }
+
+    #BTNamigus li {
+        float: left;
+    }
+
+#Friends {
+    width: 40px
+}
+
+#Se {
+    width: 100%;
+    margin-top: 10px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #4A77FF;
+    text-decoration: none;
+}
+
+    #Se:hover {
+        background: #3F0259;
+        text-decoration: none;
+    }
+
+#categoriasDIV {
+    position: fixed;
+    float: right;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#Btn1 {
+    cursor: pointer;
+    float: right;
+    background-color: white;
+    border: none;
+    color: purple;
+    margin-top: -2%;
+}
+
+#Btn {
+    cursor: pointer;
+    float: right;
+    background-color: white;
+    border: none;
+    color: purple;
+    margin-top: -2%;
+}
+
+#PUBS1 {
+    width: 43%;
+    float: right;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: -55px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#PerfS {
+    width: 60%;
+    margin-left: 20%;
+    position: absolute;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    margin-top: 50px;
+}
+/* #tituloPOST{
+} */
+#fi{
+    float: right;
+    width: 27%;
+    margin-top: 2%;
+    height: 10%;
+}
+#corpo1{
+    margin-top: 10%;
+}
+#estrela{
+    float: right;
+}
+#ComentarioTXT {
+    width: 40%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #4A77FF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    color: #4A77FF;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    resize: none;
+}
+#admCom {
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+    width: 97%;
+    position:absolute;
+    display: flex;
+}
+
+#conw{
+    float: left;
+    width: 390px;
+}
